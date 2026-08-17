@@ -15,9 +15,11 @@
     box-sizing: border-box;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
+
 
 body {
     font-family:
@@ -36,10 +38,12 @@ body {
     line-height: 1.6;
 }
 
+
 a {
     color: inherit;
     text-decoration: none;
 }
+
 
 button {
     font-family: inherit;
@@ -84,6 +88,7 @@ button {
 
     --border:
         rgba(198, 181, 150, 0.22);
+
 }
 
 
@@ -117,6 +122,7 @@ button {
         #11100e;
 }
 
+
 .dot-field {
     position: absolute;
 
@@ -129,6 +135,7 @@ button {
 
     opacity: 0.9;
 }
+
 
 #dotCanvas {
     position: absolute;
@@ -211,10 +218,12 @@ button {
         color 0.35s ease;
 }
 
+
 .logo span {
     color:
         var(--khaki);
 }
+
 
 .logo:hover {
     transform:
@@ -245,6 +254,7 @@ button {
         rgba(245, 241, 232, 0.06);
 }
 
+
 .nav-pill {
     position: relative;
 
@@ -274,6 +284,7 @@ button {
         transform 0.3s ease,
         background 0.3s ease;
 }
+
 
 .nav-pill::before {
     content: "";
@@ -307,12 +318,14 @@ button {
     z-index: -1;
 }
 
+
 .nav-pill:hover::before,
 .nav-pill.active::before {
     transform:
         translateX(-50%)
         scale(1);
 }
+
 
 .nav-pill:hover,
 .nav-pill.active {
@@ -351,6 +364,7 @@ button {
     gap: 5px;
 }
 
+
 .mobile-menu-button span {
     width: 17px;
     height: 2px;
@@ -364,11 +378,13 @@ button {
         transform 0.3s ease;
 }
 
+
 .mobile-menu-button.active span:first-child {
     transform:
         translateY(3.5px)
         rotate(45deg);
 }
+
 
 .mobile-menu-button.active span:last-child {
     transform:
@@ -417,6 +433,7 @@ button {
     z-index: 99;
 }
 
+
 .mobile-menu.active {
     opacity: 1;
 
@@ -425,6 +442,7 @@ button {
     transform:
         translateY(0);
 }
+
 
 .mobile-menu a {
     display: block;
@@ -447,6 +465,7 @@ button {
         background 0.25s ease,
         color 0.25s ease;
 }
+
 
 .mobile-menu a:hover {
     background:
@@ -475,6 +494,7 @@ button {
         120px 0;
 }
 
+
 .small-text {
     color:
         var(--khaki);
@@ -492,10 +512,12 @@ button {
         15px;
 }
 
+
 .section-heading {
     margin-bottom:
         55px;
 }
+
 
 .section-heading h2 {
     font-size:
@@ -511,6 +533,7 @@ button {
     letter-spacing:
         -3px;
 }
+
 
 .section-heading h2 span {
     color:
@@ -564,6 +587,7 @@ button {
         2;
 }
 
+
 .hero h1 {
     font-size:
         clamp(
@@ -585,6 +609,7 @@ button {
         var(--white);
 }
 
+
 .hero h1 span {
     display:
         block;
@@ -592,6 +617,7 @@ button {
     color:
         var(--khaki);
 }
+
 
 .hero h2 {
     font-size:
@@ -610,6 +636,7 @@ button {
     margin-bottom:
         25px;
 }
+
 
 .hero-description {
     max-width:
@@ -644,6 +671,7 @@ button {
     gap:
         12px;
 }
+
 
 .btn {
     position:
@@ -700,6 +728,7 @@ button {
         background 0.35s ease;
 }
 
+
 .btn::before {
     content:
         "";
@@ -733,6 +762,7 @@ button {
         height 0.45s ease;
 }
 
+
 .btn:hover::before {
     width:
         300px;
@@ -740,6 +770,7 @@ button {
     height:
         300px;
 }
+
 
 .btn:hover {
     color:
@@ -753,6 +784,7 @@ button {
         rgba(198, 181, 150, 0.25);
 }
 
+
 .btn span {
     position:
         relative;
@@ -760,6 +792,7 @@ button {
     z-index:
         2;
 }
+
 
 .btn-outline {
     background:
@@ -769,10 +802,12 @@ button {
         var(--khaki);
 }
 
+
 .btn-outline::before {
     background:
         var(--khaki);
 }
+
 
 .btn-outline:hover {
     color:
@@ -816,6 +851,7 @@ button {
         transform 0.4s ease;
 }
 
+
 .btn:hover .target-arrow {
     transform:
         rotate(360deg)
@@ -851,6 +887,7 @@ button {
         )
         both;
 }
+
 
 .hero-image-frame {
     position:
@@ -898,6 +935,7 @@ button {
         box-shadow 0.5s ease;
 }
 
+
 .hero-image-frame img {
     width:
         100%;
@@ -922,6 +960,7 @@ button {
         filter 0.5s ease;
 }
 
+
 .hero-image-frame:hover {
     transform:
         translateY(-12px)
@@ -939,6 +978,7 @@ button {
             0.3
         );
 }
+
 
 .hero-image-frame:hover img {
     transform:
@@ -1020,6 +1060,7 @@ button {
         center;
 }
 
+
 .about-image .image-frame {
     width:
         min(
@@ -1048,6 +1089,7 @@ button {
         box-shadow 0.5s ease;
 }
 
+
 .about-image .image-frame:hover {
     transform:
         translateY(-10px);
@@ -1056,6 +1098,7 @@ button {
         0 30px 65px
         rgba(0, 0, 0, 0.5);
 }
+
 
 .about-image img {
     width:
@@ -1074,10 +1117,12 @@ button {
         transform 0.6s ease;
 }
 
+
 .about-image .image-frame:hover img {
     transform:
         scale(1.05);
 }
+
 
 .about-content h2 {
     font-size:
@@ -1097,10 +1142,12 @@ button {
         30px;
 }
 
+
 .about-content h2 span {
     color:
         var(--khaki);
 }
+
 
 .about-content p:not(.small-text) {
     color:
@@ -1123,6 +1170,7 @@ button {
         relative;
 }
 
+
 .skills-grid {
     display:
         grid;
@@ -1136,6 +1184,7 @@ button {
     gap:
         14px;
 }
+
 
 .skill-card {
     position:
@@ -1170,6 +1219,7 @@ button {
         border-color 0.4s ease;
 }
 
+
 .skill-card::before {
     content:
         "";
@@ -1202,6 +1252,7 @@ button {
         transform 0.5s ease;
 }
 
+
 .skill-card:hover {
     transform:
         translateY(-10px);
@@ -1223,10 +1274,12 @@ button {
         );
 }
 
+
 .skill-card:hover::before {
     transform:
         scale(2);
 }
+
 
 .skill-number {
     display:
@@ -1245,6 +1298,7 @@ button {
         70px;
 }
 
+
 .skill-card h3 {
     font-size:
         22px;
@@ -1252,6 +1306,7 @@ button {
     margin-bottom:
         14px;
 }
+
 
 .skill-card p {
     color:
@@ -1263,6 +1318,7 @@ button {
     line-height:
         1.7;
 }
+
 
 .card-arrow {
     position:
@@ -1303,6 +1359,7 @@ button {
         background 0.4s ease;
 }
 
+
 .skill-card:hover .card-arrow {
     transform:
         rotate(360deg);
@@ -1324,6 +1381,7 @@ button {
         hidden;
 }
 
+
 .project-layout {
     display:
         grid;
@@ -1338,10 +1396,12 @@ button {
         center;
 }
 
+
 .project-information {
     max-width:
         520px;
 }
+
 
 .project-label {
     display:
@@ -1363,6 +1423,7 @@ button {
         18px;
 }
 
+
 .project-information h3 {
     font-size:
         clamp(
@@ -1383,6 +1444,7 @@ button {
     letter-spacing:
         -5px;
 }
+
 
 .project-information p {
     color:
@@ -1428,6 +1490,7 @@ button {
         );
 }
 
+
 .project-gallery::before,
 .project-gallery::after {
     content:
@@ -1452,6 +1515,7 @@ button {
         none;
 }
 
+
 .project-gallery::before {
     left:
         0;
@@ -1463,6 +1527,7 @@ button {
             transparent
         );
 }
+
 
 .project-gallery::after {
     right:
@@ -1476,9 +1541,13 @@ button {
         );
 }
 
+
 .gallery-track {
     display:
         flex;
+
+    align-items:
+        center;
 
     gap:
         20px;
@@ -1493,6 +1562,7 @@ button {
         infinite;
 }
 
+
 .project-gallery:hover
 .gallery-track {
     animation-play-state:
@@ -1502,21 +1572,15 @@ button {
 
 /* ==========================================================
    PROJECT RECTANGULAR IMAGES
-   LANDSCAPE ON ALL SCREEN SIZES
+   DEFAULT / TABLET
 ========================================================== */
 
 .project-image {
     flex:
         0 0 280px;
 
-    width:
-        280px;
-
     height:
         150px;
-
-    flex-shrink:
-        0;
 
     border-radius:
         25px;
@@ -1545,6 +1609,7 @@ button {
         box-shadow 0.45s ease;
 }
 
+
 .project-image:hover {
     transform:
         translateY(-12px)
@@ -1562,6 +1627,7 @@ button {
             0.3
         );
 }
+
 
 .project-image img {
     width:
@@ -1581,6 +1647,7 @@ button {
         filter 0.5s ease;
 }
 
+
 .project-image:hover img {
     transform:
         scale(1.08);
@@ -1591,7 +1658,8 @@ button {
 
 
 /* ==========================================================
-   PROJECT MOVEMENT
+   PROJECT ANIMATION
+   DEFAULT / TABLET
 ========================================================== */
 
 @keyframes projectMove {
@@ -1604,7 +1672,9 @@ button {
     to {
         transform:
             translateX(
-                -1200px
+                calc(
+                    -4 * 300px
+                )
             );
     }
 }
@@ -1634,15 +1704,18 @@ button {
         center;
 }
 
+
 .contact .section-heading {
     margin-bottom:
         35px;
 }
 
+
 .contact .section-heading h2 {
     max-width:
         850px;
 }
+
 
 .contact-buttons {
     justify-content:
@@ -1686,6 +1759,7 @@ footer {
         13px;
 }
 
+
 .footer-arrow {
     width:
         42px;
@@ -1717,6 +1791,7 @@ footer {
         color 0.4s ease;
 }
 
+
 .footer-arrow:hover {
     transform:
         translateY(-5px)
@@ -1740,6 +1815,81 @@ footer {
 
 
 /* ==========================================================
+   WIDE DESKTOP PROJECT GALLERY
+   1001px AND ABOVE ONLY
+========================================================== */
+
+@media (min-width: 1001px) {
+
+    .project-gallery {
+
+        /* Taller transparent container */
+        min-height:
+            335px;
+
+        /* Keeps images vertically centered */
+        display:
+            flex;
+
+        align-items:
+            center;
+    }
+
+
+    .gallery-track {
+
+        /* Keeps images vertically centered */
+        align-items:
+            center;
+    }
+
+
+    .project-image {
+
+        /* Larger landscape images */
+        flex:
+            0 0 320px;
+
+        height:
+            210px;
+    }
+
+
+    .project-image img {
+
+        width:
+            100%;
+
+        height:
+            100%;
+
+        object-fit:
+            cover;
+    }
+
+
+    /* Animation adjusted to new image width */
+    @keyframes projectMove {
+
+        from {
+            transform:
+                translateX(0);
+        }
+
+        to {
+            transform:
+                translateX(
+                    calc(
+                        -4 * 340px
+                    )
+                );
+        }
+    }
+
+}
+
+
+/* ==========================================================
    TABLET
 ========================================================== */
 
@@ -1756,6 +1906,7 @@ footer {
             140px;
     }
 
+
     .hero-content {
         display:
             flex;
@@ -1767,10 +1918,12 @@ footer {
             center;
     }
 
+
     .hero-description {
         max-width:
             650px;
     }
+
 
     .about {
         grid-template-columns:
@@ -1780,6 +1933,7 @@ footer {
             50px;
     }
 
+
     .about-image {
         display:
             flex;
@@ -1788,15 +1942,18 @@ footer {
             center;
     }
 
+
     .about-content {
         text-align:
             center;
     }
 
+
     .about-content .btn {
         margin:
             10px auto;
     }
+
 
     .skills-grid {
         grid-template-columns:
@@ -1806,6 +1963,7 @@ footer {
             );
     }
 
+
     .project-layout {
         grid-template-columns:
             1fr;
@@ -1813,6 +1971,7 @@ footer {
         gap:
             45px;
     }
+
 
     .project-information {
         max-width:
@@ -1824,6 +1983,7 @@ footer {
         margin:
             0 auto;
     }
+
 }
 
 
@@ -1847,21 +2007,25 @@ footer {
             7px 8px 7px 14px;
     }
 
+
     .nav-links {
         display:
             none;
     }
+
 
     .mobile-menu-button {
         display:
             flex;
     }
 
+
     .section,
     .hero {
         width:
             calc(100% - 36px);
     }
+
 
     .hero {
         padding-top:
@@ -1873,6 +2037,7 @@ footer {
         gap:
             45px;
     }
+
 
     .hero h1 {
         font-size:
@@ -1886,10 +2051,12 @@ footer {
             -4px;
     }
 
+
     .hero h2 {
         font-size:
             18px;
     }
+
 
     .hero-description {
         font-size:
@@ -1899,10 +2066,12 @@ footer {
             1.7;
     }
 
+
     .hero-buttons {
         justify-content:
             center;
     }
+
 
     .hero-image-frame {
         width:
@@ -1915,15 +2084,18 @@ footer {
             25px;
     }
 
+
     .section {
         padding:
             85px 0;
     }
 
+
     .section-heading {
         margin-bottom:
             35px;
     }
+
 
     .section-heading h2 {
         font-size:
@@ -1937,20 +2109,24 @@ footer {
             -2px;
     }
 
+
     .skills-grid {
         grid-template-columns:
             1fr;
     }
+
 
     .skill-card {
         min-height:
             260px;
     }
 
+
     .skill-number {
         margin-bottom:
             45px;
     }
+
 
     .project-information h3 {
         font-size:
@@ -1961,58 +2137,31 @@ footer {
     }
 
 
-    /* ======================================================
-       MOBILE PROJECT GALLERY
-       KEEP LANDSCAPE
-    ====================================================== */
-
     .project-gallery {
-        width:
-            100%;
-
         padding:
             20px 0;
+    }
+
+
+    .project-image {
+
+        /* MOBILE — kept as your original arrangement */
+        flex-basis:
+            190px;
+
+        height:
+            250px;
 
         border-radius:
-            28px;
+            21px;
     }
+
 
     .gallery-track {
         gap:
             14px;
     }
 
-    .project-image {
-        flex:
-            0 0 280px;
-
-        width:
-            280px;
-
-        height:
-            150px;
-
-        flex-shrink:
-            0;
-
-        border-radius:
-            21px;
-    }
-
-    .project-image img {
-        width:
-            100%;
-
-        height:
-            100%;
-
-        object-fit:
-            cover;
-    }
-
-
-    /* Keep movement consistent with
-       280px image + 14px gap */
 
     @keyframes projectMove {
 
@@ -2024,9 +2173,12 @@ footer {
         to {
             transform:
                 translateX(
-                    -1176px
+                    calc(
+                        -4 * 204px
+                    )
                 );
         }
+
     }
 
 
@@ -2038,10 +2190,12 @@ footer {
             20px;
     }
 
+
     footer p {
         max-width:
             260px;
     }
+
 }
 
 
@@ -2056,15 +2210,18 @@ footer {
             calc(100% - 28px);
     }
 
+
     .section {
         width:
             calc(100% - 28px);
     }
 
+
     .hero h1 {
         font-size:
             45px;
     }
+
 
     .small-text {
         font-size:
@@ -2073,6 +2230,7 @@ footer {
         letter-spacing:
             2px;
     }
+
 
     .hero-buttons,
     .contact-buttons {
@@ -2083,10 +2241,12 @@ footer {
             column;
     }
 
+
     .btn {
         width:
             100%;
     }
+
 
     .hero-image-frame {
         width:
@@ -2094,62 +2254,14 @@ footer {
     }
 
 
-    /* ======================================================
-       SMALL PHONE PROJECT IMAGE
-       STILL LANDSCAPE
-    ====================================================== */
-
-    .project-gallery {
-        width:
-            100%;
-
-        padding:
-            20px 0;
-    }
-
     .project-image {
-        flex:
-            0 0 260px;
 
-        width:
-            260px;
-
-        height:
-            140px;
-
-        border-radius:
-            20px;
-    }
-
-    .project-image img {
-        width:
-            100%;
+        /* SMALL PHONE — kept as original */
+        flex-basis:
+            175px;
 
         height:
-            100%;
-
-        object-fit:
-            cover;
-    }
-
-    .gallery-track {
-        gap:
-            14px;
-    }
-
-    @keyframes projectMove {
-
-        from {
-            transform:
-                translateX(0);
-        }
-
-        to {
-            transform:
-                translateX(
-                    -1096px
-                );
-        }
+            230px;
     }
 
 
@@ -2160,6 +2272,7 @@ footer {
         text-align:
             center;
     }
+
 }
 
 
@@ -2174,18 +2287,22 @@ footer {
             auto;
     }
 
+
     .hero-image {
         animation:
             none;
     }
+
 
     .gallery-track {
         animation:
             none;
     }
 
+
     * {
         transition-duration:
             0.01ms !important;
     }
+
 }
